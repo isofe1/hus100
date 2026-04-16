@@ -10,7 +10,6 @@ export const fmt = (s) => {
     : `${m}:${String(sc).padStart(2,'0')}`;
 };
 
-// ─── HLS.JS LOADER ───
 let _hlsState = 'idle';
 let _hlsCbs = [];
 
