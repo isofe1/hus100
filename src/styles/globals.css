@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;900&display=swap');
+
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #07080A; --s0: #0D0F12; --s1: #12141A; --s2: #191C23; --s3: #20232C;
+  --border: #1C1F28; --border2: #252830;
+  --text: #E8E3DA; --dim: #6E6A62; --muted: #2E2C28;
+  --gold: #BF9B55; --gold2: #D4AE6A; --gold-bg: rgba(191,155,85,0.12); --gold-ring: rgba(191,155,85,0.3);
+  --red: #E05454;
+}
+html, body, #root { height: 100%; background: var(--bg); color: var(--text); font-family: 'Cairo', sans-serif; direction: rtl; }
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--s3); border-radius: 3px; }
+
+/* ... ضع بقية كود الـ CSS هنا ... */
